@@ -16,7 +16,8 @@ int majority(int arr[],int n){
 			count--;
 		}
 	}
-
+	//canddidates are gonna vote eo out so the most appearign one remains pretty self explainable loking at the code
+// we just gonna check the freq
 	int freq = 0;
 	for(int i = 0; i <n; i++){
 		if(arr[i] == candidate){
